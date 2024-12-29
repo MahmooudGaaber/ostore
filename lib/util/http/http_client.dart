@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class OstoreHttpClient {
-  static const String baseUrl = 'https://api.ostore.com';
+  static const String baseUrl = 'https://fakestoreapi.com/products';
 
 //helper function to get data from api
   static Future<Map<String, dynamic>> get(String endPoint,
