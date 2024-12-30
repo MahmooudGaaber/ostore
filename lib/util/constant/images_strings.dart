@@ -1,7 +1,8 @@
 class OstoreImagesStrings {
-  static const String darkAppLogo = 'assets/images/dark_app_logo.png';
-  static const String lightAppLogo = 'assets/images/light_app_logo.png';
-
-  static const String google = 'assets/images/dark_app_logo.png';
-  static const String facebook = 'assets/images/light_app_logo.png';
+  static const String onBoardingDelivery =
+      'assets/images/on_boarding_delivery.png';
+  static const String onBoardingShipping =
+      'assets/images/on_boarding_shipping.png';
+  static const String onBoardingSearching =
+      'assets/images/on_boarding_search.png';
 }

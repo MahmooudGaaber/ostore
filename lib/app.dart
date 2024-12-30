@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:ostore/features/on_boarding/screen/on_boarding_view.dart';
 import 'package:ostore/util/theme/theme.dart';
 
 class App extends StatelessWidget {
@@ -6,10 +8,13 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      debugShowMaterialGrid: false,
       themeMode: ThemeMode.system,
       theme: OstoreAppTheme.lightTheme,
       darkTheme: OstoreAppTheme.darkTheme,
+      home: OnBoardingView(),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ostore/util/constant/colors.dart';
 
 class OstoreElevatedButtonTheme {
   OstoreElevatedButtonTheme._();
@@ -7,7 +8,7 @@ class OstoreElevatedButtonTheme {
       ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      backgroundColor: Colors.blue,
+      backgroundColor: OstoreColors.buttonPrimaryColor,
       foregroundColor: Colors.white,
       disabledBackgroundColor: Colors.grey,
       disabledForegroundColor: Colors.grey,
@@ -32,7 +33,7 @@ class OstoreElevatedButtonTheme {
       ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      backgroundColor: Colors.blue,
+      backgroundColor: OstoreColors.buttonPrimaryColor,
       foregroundColor: Colors.white,
       disabledBackgroundColor: Colors.grey,
       disabledForegroundColor: Colors.grey,
