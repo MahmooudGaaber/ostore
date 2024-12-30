@@ -16,4 +16,51 @@ class OstoreTextStrings {
   static const String homeAppBarTitle = 'Good day for shopping!';
   static const String homeAppBarSubTitle =
       'Raise your hand if you want to shop!';
+
+  //login Texts
+  static const String loginTitle = 'Welcome Back!';
+  static const String loginSubTitle = 'Discover the best products for you';
+
+  // input Form Texts
+  static const String firstName = 'First Name';
+  static const String lastName = 'Last Name';
+  static const String email = 'Email';
+  static const String password = 'Password';
+  static const String newPassword = 'New Password';
+  static const String confirmPassword = 'Confirm Password';
+  static const String phoneNumber = 'Phone Number';
+  static const String userName = 'User Name';
+  static const String rememberMe = 'Remember Me';
+  static const String forgotPassword = 'Forgot Password?';
+  static const String signIn = 'SignIn';
+  static const String createAccount = 'Create Account';
+  static const String orSignInWith = 'Or Sign In With';
+  static const String orSignUpWith = 'Or Sign Up With';
+  static const String iAgreeTo = 'I Agree To';
+  static const String termsAndConditions = 'Terms And Conditions';
+  static const String privacyPolicy = 'Privacy Policy';
+  static const String verifcationCode = 'Verifcation Code';
+  static const String resendCode = 'Resend Code';
+  static const String resendEmail = 'Resend Email';
+  static const String resendEmailIn = 'Resend Email In';
+
+  // input Heading Texts
+  static const String signUpTitle = 'Let\'s Get Started!';
+  static const String forgetPasswordTitle = 'Forgot Password?';
+  static const String forgetPasswordSubTitle =
+      'Enter your email to reset your password';
+  static const String changePasswordTitle = 'Change Password';
+  static const String changePasswordSubTitle = 'Enter your new password';
+  static const String confirmPasswordTitle = 'Confirm Password';
+  static const String or = 'Or';
+  static const String confirmPasswordSubTitle =
+      'You account security is our priority';
+  static const String confirmEmailTitle = 'Confirm Email';
+  static const String confirmEmailSubTitle =
+      'congrats! your account is ready to use';
+  static const String emailNotReceivedMessage =
+      'Did not receive the email? Check your spam folder or resend it ';
+  static const String youAccountCreatedTitle = 'You Account Created!';
+  static const String youAccountCreatedSubTitle =
+      'Your account has been created successfully';
 }

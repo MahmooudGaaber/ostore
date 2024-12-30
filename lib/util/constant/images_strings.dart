@@ -5,4 +5,7 @@ class OstoreImagesStrings {
       'assets/images/on_boarding_shipping.png';
   static const String onBoardingSearching =
       'assets/images/on_boarding_search.png';
+  static const String logo = 'assets/logos/o-store_logo.png';
+  static const String googleLogo = 'assets/logos/google-icon.png';
+  static const String facebookLogo = 'assets/logos/facebook-icon.png';
 }

@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:ostore/util/constant/colors.dart';
 
 class OstoreCheckboxTheme {
   OstoreCheckboxTheme._();
@@ -17,7 +18,7 @@ class OstoreCheckboxTheme {
     }),
     fillColor: MaterialStateProperty.resolveWith((states) {
       if (states.contains(MaterialState.selected)) {
-        return Colors.blue;
+        return OstoreColors.primaryColor;
       }
       return Colors.transparent;
     }),
@@ -35,7 +36,7 @@ class OstoreCheckboxTheme {
     }),
     fillColor: MaterialStateProperty.resolveWith((states) {
       if (states.contains(MaterialState.selected)) {
-        return Colors.blue;
+        return OstoreColors.primaryColor;
       }
       return Colors.transparent;
     }),
