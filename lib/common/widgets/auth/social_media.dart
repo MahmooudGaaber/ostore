@@ -3,10 +3,8 @@ import 'package:ostore/util/constant/colors.dart';
 import 'package:ostore/util/constant/images_strings.dart';
 import 'package:ostore/util/constant/sizeds.dart';
 
-class SocialLogIn extends StatelessWidget {
-  const SocialLogIn({
-    super.key,
-  });
+class OstoreSocialMedia extends StatelessWidget {
+  const OstoreSocialMedia({super.key});
 
   @override
   Widget build(BuildContext context) {

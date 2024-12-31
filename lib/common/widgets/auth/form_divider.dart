@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:ostore/util/constant/sizeds.dart';
-import 'package:ostore/util/constant/text_strings.dart';
 
-class DividerItem extends StatelessWidget {
-  const DividerItem({
+class OstoreFormDivider extends StatelessWidget {
+  const OstoreFormDivider({
     super.key,
+    required this.dividerText,
   });
+
+  final String dividerText;
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Expanded(
+        const Flexible(
           child: Divider(
             color: Colors.grey,
             thickness: 0.5,
@@ -20,10 +22,10 @@ class DividerItem extends StatelessWidget {
           ),
         ),
         Text(
-          OstoreTextStrings.or,
+          dividerText,
           style: Theme.of(context).textTheme.labelMedium,
         ),
-        const Expanded(
+        const Flexible(
           child: Divider(
             color: Colors.grey,
             thickness: 0.5,

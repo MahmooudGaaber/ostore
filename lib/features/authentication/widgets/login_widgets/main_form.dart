@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:ostore/features/authentication/screens/signup.dart';
 import 'package:ostore/util/constant/sizeds.dart';
 import 'package:ostore/util/constant/text_strings.dart';
 
@@ -76,7 +78,9 @@ class MainForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(() => const SignUpView());
+              },
               child: const Text(OstoreTextStrings.createAccount),
             ),
           ),

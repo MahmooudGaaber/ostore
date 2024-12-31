@@ -36,7 +36,7 @@ class OstoreTextStrings {
   static const String createAccount = 'Create Account';
   static const String orSignInWith = 'Or Sign In With';
   static const String orSignUpWith = 'Or Sign Up With';
-  static const String iAgreeTo = 'I Agree To';
+  static const String iAgreeTo = 'I Agree To ';
   static const String termsAndConditions = 'Terms And Conditions';
   static const String privacyPolicy = 'Privacy Policy';
   static const String verifcationCode = 'Verifcation Code';

@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:ostore/common/styles/spacing_style.dart';
-import 'package:ostore/features/authentication/widgets/login_widgets/divide_item.dart';
+import 'package:ostore/common/widgets/auth/form_divider.dart';
+import 'package:ostore/common/widgets/auth/social_media.dart';
 import 'package:ostore/features/authentication/widgets/login_widgets/header.dart';
 import 'package:ostore/features/authentication/widgets/login_widgets/main_form.dart';
-import 'package:ostore/features/authentication/widgets/login_widgets/social_login.dart';
-import 'package:ostore/util/constant/colors.dart';
-import 'package:ostore/util/constant/images_strings.dart';
-import 'package:ostore/util/constant/sizeds.dart';
+import 'package:ostore/util/constant/text_strings.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -28,10 +25,10 @@ class LoginView extends StatelessWidget {
               MainForm(),
 
               //divider
-              DividerItem(),
+              OstoreFormDivider(dividerText: OstoreTextStrings.or),
 
               //social media login
-              SocialLogIn(),
+              OstoreSocialMedia(),
             ],
           ),
         ),
