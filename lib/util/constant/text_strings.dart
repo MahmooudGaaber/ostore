@@ -33,6 +33,8 @@ class OstoreTextStrings {
   static const String rememberMe = 'Remember Me';
   static const String forgotPassword = 'Forgot Password?';
   static const String signIn = 'SignIn';
+  static const String continueToApp = 'Continue';
+
   static const String createAccount = 'Create Account';
   static const String orSignInWith = 'Or Sign In With';
   static const String orSignUpWith = 'Or Sign Up With';
@@ -57,7 +59,7 @@ class OstoreTextStrings {
       'You account security is our priority';
   static const String confirmEmailTitle = 'Confirm Email';
   static const String confirmEmailSubTitle =
-      'congrats! your account is ready to use';
+      'congrats! your account is awaiting verification and activation';
   static const String emailNotReceivedMessage =
       'Did not receive the email? Check your spam folder or resend it ';
   static const String youAccountCreatedTitle = 'You Account Created!';
