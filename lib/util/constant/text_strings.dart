@@ -20,6 +20,7 @@ class OstoreTextStrings {
   //login Texts
   static const String loginTitle = 'Welcome Back!';
   static const String loginSubTitle = 'Discover the best products for you';
+  static const String submit = 'Submit';
 
   // input Form Texts
   static const String firstName = 'First Name';
@@ -63,6 +64,10 @@ class OstoreTextStrings {
   static const String emailNotReceivedMessage =
       'Did not receive the email? Check your spam folder or resend it ';
   static const String youAccountCreatedTitle = 'You Account Created!';
+  static const String passwordResetEmailSend = 'Password Reset Email Send!';
+  static const String passwordResetEmailSendSubTitle =
+      'We have sent a verification code to your email';
+  static const String done = 'Done';
   static const String youAccountCreatedSubTitle =
       'Your account has been created successfully';
 }

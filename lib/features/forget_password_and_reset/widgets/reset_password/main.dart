@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ostore/util/constant/sizeds.dart';
 
-class VerifyAndSuccessMiddle extends StatelessWidget {
-  const VerifyAndSuccessMiddle({
+class ResetPasswordMain extends StatelessWidget {
+  const ResetPasswordMain({
     super.key,
     required this.title,
     required this.subTitle,
