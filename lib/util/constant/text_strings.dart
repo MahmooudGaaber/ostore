@@ -14,8 +14,7 @@ class OstoreTextStrings {
 
   //Home Texts
   static const String homeAppBarTitle = 'Good day for shopping!';
-  static const String homeAppBarSubTitle =
-      'Raise your hand if you want to shop!';
+  static const String homeAppBarSubTitle = 'Shop User Friendly Products';
 
   //login Texts
   static const String loginTitle = 'Welcome Back!';
