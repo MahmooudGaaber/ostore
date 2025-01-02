@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:ostore/util/constant/sizeds.dart';
 import 'package:ostore/util/helper/helper_function.dart';

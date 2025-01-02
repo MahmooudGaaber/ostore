@@ -16,7 +16,7 @@ class ForgetPasswordFooter extends StatelessWidget {
         onPressed: () {
           Get.off(() => const ResetPasswordView());
         },
-        child: Text(OstoreTextStrings.submit),
+        child: const Text(OstoreTextStrings.submit),
       ),
     );
   }

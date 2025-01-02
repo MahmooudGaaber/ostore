@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:ostore/features/on_boarding/controller/on_boarding_controller.dart';
 import 'package:ostore/util/constant/colors.dart';

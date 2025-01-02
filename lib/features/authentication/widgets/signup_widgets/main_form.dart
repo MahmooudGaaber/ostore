@@ -19,7 +19,7 @@ class SignUpMainForm extends StatelessWidget {
                 child: TextFormField(
                   decoration: const InputDecoration(
                     labelText: OstoreTextStrings.firstName,
-                    prefixIcon: const Icon(Iconsax.user),
+                    prefixIcon: Icon(Iconsax.user),
                   ),
                 ),
               ),
@@ -28,7 +28,7 @@ class SignUpMainForm extends StatelessWidget {
                 child: TextFormField(
                   decoration: const InputDecoration(
                     labelText: OstoreTextStrings.lastName,
-                    prefixIcon: const Icon(Iconsax.user),
+                    prefixIcon: Icon(Iconsax.user),
                   ),
                 ),
               ),

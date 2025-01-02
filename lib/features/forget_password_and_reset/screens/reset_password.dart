@@ -21,7 +21,7 @@ class ResetPasswordView extends StatelessWidget {
             onPressed: () {
               Get.back();
             },
-            icon: Icon(Iconsax.close_circle),
+            icon: const Icon(Iconsax.close_circle),
           ),
         ],
       ),
