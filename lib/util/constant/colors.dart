@@ -47,6 +47,8 @@ class OstoreColors {
   static const Color lightGrey = Color(0xFFF9F9F9);
   static const Color white = Color(0xFFFFFFFF);
 
+  static const Color transparent = Colors.transparent;
+
   //gradient colors
   static const LinearGradient linearGradient = LinearGradient(
     colors: [

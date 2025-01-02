@@ -67,6 +67,8 @@ class OstoreTextStrings {
   static const String passwordResetEmailSendSubTitle =
       'We have sent a verification code to your email';
   static const String done = 'Done';
+  static const String search = 'Search';
+
   static const String youAccountCreatedSubTitle =
       'Your account has been created successfully';
 }
