@@ -25,6 +25,8 @@ class OstoreTextStrings {
   static const String firstName = 'First Name';
   static const String lastName = 'Last Name';
   static const String email = 'Email';
+  static const String categories = 'Categories';
+  static const String seeAll = 'See All';
   static const String password = 'Password';
   static const String newPassword = 'New Password';
   static const String confirmPassword = 'Confirm Password';
