@@ -1,25 +1,25 @@
 // ignore_for_file: deprecated_member_use
 
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:ostore/common/widgets/category/categoty_header.dart';
+import 'package:ostore/features/home/widgets/homa_screen_popular_Category_item.dart';
 import 'package:ostore/features/home/widgets/home_app_bar.dart';
 import 'package:ostore/features/home/widgets/home_screen_primery_header.dart';
 import 'package:ostore/features/home/widgets/home_screen_search_bar.dart';
-import 'package:ostore/features/home/widgets/popular_category_list_view.dart';
-import 'package:ostore/util/constant/colors.dart';
+import 'package:ostore/features/home/widgets/rounded_panner.dart';
 import 'package:ostore/util/constant/sizeds.dart';
-import 'package:ostore/util/constant/text_strings.dart';
+import 'package:ostore/util/constant/images_strings.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
-            OstorePrimeryHeader(
+            const OstorePrimeryHeader(
               child: Column(
                 children: [
                   // App Bar
@@ -30,34 +30,52 @@ class HomeScreen extends StatelessWidget {
 
                   //search bar
                   HomeScreenSearchBar(),
+                  SizedBox(
+                    height: OstoreSizes.spaceBtwSection,
+                  ),
 
                   //categories
-
-                  Padding(
-                    padding: EdgeInsets.only(
-                      left: OstoreSizes.defaultSpace,
-                    ),
-                    child: Column(
-                      children: [
-                        //categories header
-                        OstoreCategorySectionHeader(
-                          title: OstoreTextStrings.categories,
-                          showButton: false,
-                          textColor: OstoreColors.textWhite,
-                        ),
-
-                        SizedBox(
-                          height: OstoreSizes.spaceBtwItems,
-                        ),
-
-                        //categories list
-                        OstoreHomeScreenPopularCategoriesListView(),
-                      ],
-                    ),
+                  HomeScreenPopularCategoryItem(),
+                  SizedBox(
+                    height: OstoreSizes.spaceBtwSection,
                   ),
                 ],
               ),
             ),
+
+            //body --
+            Padding(
+              padding: const EdgeInsets.all(OstoreSizes.defaultSpace),
+              child: Column(
+                children: [
+                  CarouselSlider(
+                    options: CarouselOptions(
+                      viewportFraction: 0.9,
+                    ),
+                    items: [
+                      OstorePannersRoundedImages(
+                        data: OstorePannersRounedeImagesData(
+                          imageUrl: OstoreImagesStrings.homeScreenPanner1,
+                        ),
+                      ),
+                      OstorePannersRoundedImages(
+                        data: OstorePannersRounedeImagesData(
+                          imageUrl: OstoreImagesStrings.homeScreenPanner1,
+                        ),
+                      ),
+                      OstorePannersRoundedImages(
+                        data: OstorePannersRounedeImagesData(
+                          imageUrl: OstoreImagesStrings.homeScreenPanner1,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: OstoreSizes.spaceBtwItems,
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       ),

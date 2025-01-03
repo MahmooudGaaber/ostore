@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:ostore/features/home/widgets/circular_container.dart';
 import 'package:ostore/features/home/widgets/home_screen_curved_edge.dart';

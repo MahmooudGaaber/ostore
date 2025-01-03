@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:ostore/util/constant/colors.dart';
 
 class OstoreCircularContainer extends StatelessWidget {
-  OstoreCircularContainer({
+  const OstoreCircularContainer({
     super.key,
     required this.data,
   });
